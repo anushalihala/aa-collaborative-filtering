@@ -30,8 +30,4 @@ def collaborative_filtering(user_id, num_of_predictions, recipe_history=[]):
   return pred_recipe_ids[-num_of_predictions:]
   
 # #testing
-# with open("recipe_history_0.pickle","rb") as fh:
-  # recipe_history_0 = pickle.load(fh)
- 
-# print(collaborative_filtering(0, 10, recipe_history_0))
 # print(collaborative_filtering(0, 10))
